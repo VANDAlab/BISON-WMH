@@ -1,0 +1,22 @@
+[project]
+name = "bison-wmh"
+version = "1.0.0"
+description = "Brain tissue segmentation pipeline for White Matter Hyperintensities"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy<2",
+    "SimpleITK",
+    "scikit-learn==1.0.2",
+    "matplotlib",
+]
+
+[dependency-groups]
+dev = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["BISON_L9", "BISON_FLAIR"]
