@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: BISON-WMH
+message: Brain tIsue SegmentatiOn pipeliNe for White Matter Hyperintensities
+type: software
+authors:
+  - family-names: Dadar
+    given-names: Mahsa
+  - family-names: Collins
+    given-names: D. Louis
+repository-code: https://github.com/VANDAlab/BISON-WMH
+abstract: BISON-WMH is a medical image processing pipeline for brain tissue segmentation
+  and white matter hyperintensity (WMH) detection using machine learning classifiers.
+  The project implements two main pipeline variants for different imaging modalities:
+  a full 9-class tissue segmentation (T1 + T2 + PD + FLAIR) and a simplified FLAIR-only
+  segmentation pipeline.
+keywords:
+  - medical imaging
+  - brain segmentation
+  - white matter hyperintensities
+  - machine learning
+  - random forest
+  - MRI
+  - tissue classification
+license: Apache-2.0
+version: 1.0.0
+doi: 10.1002/mrm.28539
+url: https://github.com/VANDAlab/BISON-WMH
+references:
+  - type: article
+    authors:
+      - family-names: Dadar
+        given-names: Mahsa
+      - family-names: Collins
+          given-names: D. Louis
+    title: "BISON: Brain tissue segmentation pipeline using T1-weighted magnetic
+      resonance images and a random forest classifier"
+    journal: Magnetic Resonance in Medicine
+    volume: 85
+    issue: 4
+    pages: 1881-1894
+    year: 2021
+    doi: 10.1002/mrm.28509
+    url: https://doi.org/10.1002/mrm.28509
